@@ -4,7 +4,6 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import { Typography } from '@mui/material';
 import './App.css'
-import { lightBlue } from '@mui/material/colors';
 
 function App() {
 
@@ -17,7 +16,7 @@ function App() {
               justifyContent: 'space-evenly',
               height: '100%',
               boxShadow: 0,
-              backgroundColor: 'lightblue',
+              backgroundColor: 'aliceBlue',
             }}
           >
             <Card sx={{ maxWidth: 500, marginBottom: 10, marginTop: 10, boxShadow: 5, borderRadius: 3 }}>
