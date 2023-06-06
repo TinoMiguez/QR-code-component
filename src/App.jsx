@@ -3,6 +3,7 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import { Typography } from '@mui/material';
+import qrcode from "../src/assets/qrcode.png"
 import './App.css'
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
             <Card sx={{ maxWidth: 500, marginBottom: 10, marginTop: 10, boxShadow: 5, borderRadius: 3 }}>
               <CardMedia
                 sx={{ height: 250, width:250, margin: '0 auto', marginTop: 1, borderRadius: 5}}
-                image="../src/assets/Screenshot from 2023-05-23 15-08-56.png"
+                image={qrcode}
                 />
             <CardContent
               sx={{ maxHeight: 500, maxWidth: 230 }}
